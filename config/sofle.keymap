@@ -98,11 +98,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none   &kp F1     &kp F2         &kp F3        &kp F4                &kp F5                                   &kp F6         &kp F7           &kp F8           &kp F9           &kp F10       &none
-&trans  &kp EXCL   &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                              &kp BACKSLASH  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_N9        &kp KP_MINUS  &kp KP_MULTIPLY
-&trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp KP_EQUAL   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp KP_DIVIDE
-&trans  &kp PIPE   &kp LBKT       &kp RBKT      &kp LBRC              &kp RBRC               &trans    &trans  &none          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans
-                   &trans         &trans        &trans                &trans                 &trans    &trans  &trans         &kp KP_NUMBER_0  &kp KP_COMMA     &kp KP_DOT
+&kp GRAVE  &kp F1     &kp F2         &kp F3        &kp F4                &kp F5                                   &kp F6         &kp F7           &kp F8           &kp F9           &kp F10       &none
+&trans     &kp EXCL   &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                              &kp BACKSLASH  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_N9        &kp KP_MINUS  &kp KP_MULTIPLY
+&trans     &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp KP_EQUAL   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp KP_DIVIDE
+&trans     &kp PIPE   &kp LBKT       &kp RBKT      &kp LBRC              &kp RBRC               &trans    &trans  &none          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans
+                      &trans         &trans        &trans                &trans                 &trans    &trans  &trans         &kp KP_NUMBER_0  &kp KP_COMMA     &kp KP_DOT
             >;
 
             sensor-bindings =
@@ -142,9 +142,9 @@
             display-name = "System";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &bt BT_CLR_ALL  &none  &none  &none  &none  &none
-&ext_power EP_TOG  &none         &none         &none         &none         &studio_unlock                  &none           &none  &none  &none  &none  &none
-&none              &none         &none         &none         &none         &none                           &none           &none  &none  &none  &none  &none
-&none              &none         &none         &none         &none         &caps_word      &none    &none  &none           &none  &none  &none  &none  &none
+&ext_power EP_TOG  &bt BT_NXT    &bt BT_PRV    &none         &none         &studio_unlock                  &none           &none  &none  &none  &none  &none
+&none              &none         &none         &none         &none         &soft_off                       &none           &none  &none  &none  &none  &none
+&none              &none         &none         &none         &none         &none           &none    &none  &none           &none  &none  &none  &none  &none
                                  &none         &none         &none         &none           &none    &none  &none           &none  &none  &none
             >;
 
